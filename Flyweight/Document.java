@@ -23,7 +23,7 @@ public class Document
 
     public Document loadDocument(String documentName)
     {
-        return new Document(this.documentName); ///!!!!!
+        return new Document(this.documentName);
     }
 
     public void saveDocument()
